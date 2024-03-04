@@ -49,7 +49,7 @@ public class Main {
 					 
 					
 										 
-					System.out.println("press 1 for salary update");
+					System.out.println("press 1 to update salary");
 					System.out.println("press 2 for name update");
 					System.out.println("press 3 for address update");
 					System.out.println("press 4 for role update");
