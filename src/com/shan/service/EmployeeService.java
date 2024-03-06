@@ -1,11 +1,11 @@
-package com.shan.dao;
+package com.shan.service;
 
 import java.math.BigDecimal;
 import java.util.List;
 
 import com.shan.dto.Employee;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
 	
 	List getEmployees();	
 	Employee getEmployee(int empId);
