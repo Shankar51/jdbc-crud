@@ -21,13 +21,13 @@ public class EmployeeServiceImpl implements EmployeeService {
 	ArrayList<Employee> emplist = null;
 
 	@Override
-	public List getEmployees() {
+	public List<Employee> getEmployees() {
 		try {
 			Connection con = ConnectorFactory.requestConnection();
 			String query = "select*from employees";
 			Statement stmt = con.createStatement();
 			ResultSet res = stmt.executeQuery(query);
-			emplist = new ArrayList();
+			emplist = new ArrayList<Employee>();
 
 			while (res.next() == true) {
 				int empId = res.getInt(1);

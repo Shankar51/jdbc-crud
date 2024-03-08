@@ -2,6 +2,7 @@ package com.shan.dto;
 
 import java.math.BigDecimal;
 
+
 public class Employee {
 
 	private int empId;
